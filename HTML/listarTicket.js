@@ -38,7 +38,7 @@ Tener en cuenta que typicode es un fake REST API
 
 //const APIREST_URL='http://my-json-server.typicode.com/lu7did/testJASON/ticket/';
 // URL para acceder directamente a ésta función
-//http://127.0.0.1:5500/listarTicket.html?id=0533a95d-7eef-4c6b-b753-1a41c9d1fbd0&nombre=Pedro%20E.%20Colla&ultimo=01/11/2023
+//  
 //
 
 //const APIREST_URL='https://xe3qolsgh0.execute-api.us-east-1.amazonaws.com/listarTicketGET?clienteID='+query.id;
