@@ -32,30 +32,6 @@ console.log("mode:"+query.mode);
 document.getElementById("lastlogin").innerHTML = "<table><tr><td>Cliente</td><td>"+query.id+"</td></tr><tr><td>Contacto</td><td>"+query.contacto+"</td></tr></tr><tr><td>Nombre</td><td>"+query.nombre+"</td></tr><tr><td>Ultimo ingreso</td><td>"+query.fecha_ultimo_ingreso+"</td></tr></table>";
 
 
-<<<<<<< HEAD
-/*---
-Accede a REST API para obtener tickets
-Tener en cuenta que typicode es un fake REST API
-*/
-
-//const APIREST_URL='http://my-json-server.typicode.com/lu7did/testJASON/ticket/';
-// URL para acceder directamente a ésta función
-//  
-//
-
-//const APIREST_URL='https://xe3qolsgh0.execute-api.us-east-1.amazonaws.com/listarTicketGET?clienteID='+query.id;
-//clientID 0533a95d-7eef-4c6b-b753-1a41c9d1fbd0
-
-
-
-
-//const api_TicketURL=APIREST_URL;
-
-//fetch(`${api_TicketURL}`)
-
-const HTMLResponse=document.querySelector("#app");
-=======
->>>>>>> e26ba3c5bd8d80d5fd5a6b34044c3808a5d4746b
 const systemURL={ 
 
     listarTicket    : "http://127.0.0.1:5500/HTML/listarTicket.html",
